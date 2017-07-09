@@ -2,7 +2,8 @@
 
 body {
 	font-family: "Lato", 'Comfortaa', Arial, sans-serif;
-	color: #ffffff;
+	color: #c1c1c1;
+	box-sizing: border-box;
 }
 
 .home {
@@ -17,7 +18,8 @@ header a {
 }
 
 header h1,
-header h2 {
+header h2,
+div#footer p {
 	font-family: 'Comfortaa', sans-serif;
 	text-align: center;
 }
@@ -34,4 +36,19 @@ header h2 {
 
 #mini-menu {
 	display: none;
+}
+
+#latest-articles {
+	width: 100%;
+	max-width: 1200px;
+	margin: 20px auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+article{
+	max-width: 300px;
+	display: inline-block;
+	margin: 20px;
 }
