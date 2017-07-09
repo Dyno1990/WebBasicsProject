@@ -17,6 +17,30 @@ header a {
 	color: #fff;
 }
 
+div#nav-section{
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+div#logo {
+	float: left;
+	max-width: 50px; 
+}
+
+div.wrap-nav div.main-menu {
+	text-align: center;
+}
+
+div.wrap-nav div.main-menu ul li {
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	max-height: 40px;
+	padding: 20px;
+	cursor: pointer;
+}
+
 header h1,
 header h2,
 div#footer p {
