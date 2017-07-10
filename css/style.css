@@ -17,6 +17,25 @@ header a {
 	color: #fff;
 }
 
+header h1 {
+	margin: 30px auto;
+}
+
+header h2 {
+	margin: 20px auto;
+}
+
+.btn {
+	text-align: center;
+}
+
+.btn-subscribe {
+	text-align: center;
+	padding: 10px;
+	margin: 30px auto;
+	color: #fff;
+}
+
 div#nav-section{
 	display: block;
 	max-width: 1200px;
