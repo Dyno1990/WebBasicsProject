@@ -19,8 +19,13 @@
 
         <header>
             <div class="wrap-header">
-                <div id="main-menu">
-                <div id="logo"><a href="#"><img src="images/tech-lemon-logo.png"></a></div>
+                <div id="nav-section">
+                <div id="logo">
+                    <a href="#">
+                        <img src="images/tech-lemon-logo.png">
+                        <span><h1>tech lemon</h1></span>
+                    </a>
+                    </div>
                     <nav>
                     <div class="wrap-nav">
                     <div class="main-menu">
@@ -48,7 +53,35 @@
         </header>
 
         <main>
-            
+            <form method="#" id="contact_form">
+            	<div>
+            		<label for="name">Name: </label>
+            		<input type="text" name="name" id="name" required="required" placeholder="Your name">
+            	</div>
+            	<div>
+            		<label for="email">Email addres: </label>
+            		<input type="email" name="email" id="email" required="required" placeholder="Your email address">
+            	</div>
+				<div>
+                	<label for="topic">Type of topic:</label>
+                	<select id="topic">
+                    	<option value="accessories">Accessories</option>
+                    	<option value="computers">Computers</option>
+                    	<option value="mobile_devices">Mobile devices</option>
+                	</select>
+            	</div>       
+            	<div>
+            		<label for="subject">Subject: </label>
+            		<input type="text" name="subject" id="subject" required="required" placeholder="Your email address">
+            	</div>
+            	<div>
+            		<label for="message">Message: </label>
+            		<textarea form="contact_form" name="message" id="message" required="required" placeholder="Fill your message here." rows="5" cols="50"></textarea>
+            	</div>           	
+            	<div>
+            		<input type="submit" class="button" value="submit" id="button">
+            	</div>
+            </form>
         </main>
 
         <footer>

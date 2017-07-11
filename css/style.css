@@ -40,11 +40,17 @@ div#nav-section{
 	display: block;
 	max-width: 1200px;
 	margin: 0 auto;
+	background: #000;
 }
 
 div#logo {
 	float: left;
 	max-width: 50px; 
+}
+
+div#logo span h1 {
+	color: #fff;
+	font-size: 1em;
 }
 
 div.wrap-nav div.main-menu {
