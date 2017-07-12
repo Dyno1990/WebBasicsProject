@@ -6,9 +6,10 @@ body {
 	box-sizing: border-box;
 }
 
-.home {
+header {
 	background: #000;
-	min-height: 30%;
+	min-height: 40vh;
+	height: 40vh;
 	max-height: 60%;
 }
 
@@ -87,6 +88,16 @@ header h2 {
 	display: none;
 }
 
+main.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+div#latest-title{
+	text-align: center;
+}
+
 #latest-articles {
 	width: 100%;
 	max-width: 1200px;
@@ -96,8 +107,20 @@ header h2 {
 	justify-content: center;
 }
 
-article{
+#latest-articles article{
 	max-width: 300px;
 	display: inline-block;
 	margin: 20px;
+}
+
+div.img-container {
+	height: 250px;
+	max-height: 300px;
+	vertical-align: middle;
+}
+
+#latest-articles article img{
+	width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
 }
