@@ -12,10 +12,12 @@ header a {
 }
 
 header h1 {
+	color: #fff;
 	margin: 70px auto;
 }
 
 header h2 {
+	color: #fff;
 	margin: 50px auto;
 }
 
@@ -57,8 +59,7 @@ nav .wrap-nav{
 }
 
 .menu  ul li:hover {
-	background: none;
-	color: #DA251D;
+	background: #4484ce;
 }
 
 .menu  ul li a {
@@ -74,7 +75,7 @@ nav .wrap-nav{
 }
 
 .menu  ul li:hover a {
-	color:#DA251D;
+	color:#fff;
 }
 
 .mini-menu{
@@ -84,14 +85,16 @@ nav .wrap-nav{
 .mini-menu{
 	position: relative;
 	margin: 0px;
-	background:#333333;
+	background: #333333;
 }
 
 .mini-menu div{
 	overflow: hidden;
 	position: relative;
 	font: 18px/37px 'Lato';
-	color: #fff;text-align:center;text-transform:uppercase;
+	color: #ccc;
+	text-align:center;
+	text-transform:uppercase;
 	font-weight:bold;
 }
 
@@ -107,6 +110,39 @@ nav .wrap-nav{
 }
 
 /* HEADER END */
+
+/* SUBSCRIBE BUTTON */
+#subscribe-container {
+	align-items: center;
+	text-align: center;
+}
+
+#btn-subscribe {
+	font: "Comfortaa", sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+	background: none;
+	padding: 25px 45px;
+	border: 3px solid #fff;
+	margin-top: 50px;
+	margin-bottom: 20px;
+
+}
+
+#btn-subscribe:hover {
+	color: #fff;
+	background: #4484ce;
+	padding: 25px 45px;
+	border: 3px solid #4484ce;
+
+}
+
+/* SUBSCRIBE BUTTON END */
+
+main a {
+	color: #ccc;
+	text-decoration: none;	
+}
 
 /* CONTENT */
 
@@ -197,16 +233,6 @@ footer .content .gallery img{
 	text-decoration:underline;
 }
 
-
-html {
-   -webkit-text-size-adjust: none;
-}
-.video embed,
-.video object,
-.video iframe {
-   width: 100%;
-   height: auto;
-}
 img{
 	max-width:100%;
 }
@@ -260,13 +286,19 @@ img{
 
 .start-grid .column-1-2{
 	width:400px;
+	vertical-align: middle;
+}
+
+
+.start-grid .column-1-2:hover{
+	opacity: 0.3;
 }
 
 .start-grid .column-1-3{
-	width:333px;
+	width:330px;
 }
 .start-grid .column-2-3{
-	width:666px;
+	width:660px;
 }
 
 .start-grid .column-1-4{
@@ -279,18 +311,6 @@ img{
 }
 
 /* GRID END */
-
-
-.btn {
-	text-align: center;
-}
-
-.btn-subscribe {
-	text-align: center;
-	padding: 10px;
-	margin: 30px auto;
-	color: #fff;
-}
 
 div#nav-section{
 	display: block;
@@ -345,18 +365,3 @@ div.img-fixed-size {
 	height: 700px;
 }
 
-#subscribe-container {
-	align-items: center;
-	text-align: center;
-}
-
-.btn-subscribe {
-
-}
-
-/*
-
-rgba(241,111,92, 0.777) 0%,
-		rgba(249,207,0, 0.666) 100%,
-
- */
