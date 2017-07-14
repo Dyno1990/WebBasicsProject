@@ -4,7 +4,7 @@
 
 body {
 	font-family: "Lato", 'Comfortaa', Arial, sans-serif;
-	color: #ccc;
+	color: #888;
 	box-sizing: border-box;
 }
 
@@ -116,6 +116,10 @@ nav .wrap-nav{
 
 /* SUBSCRIBE BUTTON END */
 
+main {
+	min-height: 700px;
+}
+
 main a {
 	color: #ccc;
 	text-decoration: none;	
@@ -154,50 +158,6 @@ main h2 {
 .part1 h2{
 	font-size:20px;
 	line-height:30px;
-}
-
-footer {
-	background: linear-gradient(to bottom, rgba(249,207,0, 0.666) 0%,	
-		rgba(241,111,92, 0.777) 100%);
-	margin-top:30px;
-
-}
-footer .wrap-footer{
-	padding:10px 0px;
-	color:#ffffff;
-
-}
-
-footer .heading{
-	padding:5px;
-}
-footer .heading h2{
-	font-size:22px;
-	font-weight:normal;
-	display:inline;
-	padding:0 5px;
-}
-footer .content{
-	padding:5px
-}
-footer .content a{
-	color:#DA251D;
-	text-decoration:none;
-}
-footer .content .gallery img{
-	float:left;
-	padding:5px;
-	border:1px solid #CCC;
-	margin:5px;
-}
-
-.copyright{
-	text-align:center;
-	margin-top:20px;
-}
-.copyright a{
-	color:#ffffff;
-	text-decoration:underline;
 }
 
 img{
@@ -253,22 +213,10 @@ img{
 	vertical-align: middle;
 }
 
-
 .start-grid .column-1-2:hover{
 	opacity: 0.3;
 }
 
-.start-grid .column-1-3{
-	width:330px;
-}
-.start-grid .column-2-3{
-	width:660px;
-}
-
-.start-grid .column-1-4{
-	width:200px;
-	margin-left: 25px;
-}
 .mini-menu div:hover{
 	background: #ffffff;
 	color: #000000;
@@ -325,6 +273,54 @@ h4 {
 	font-weight: bold;
 }
 
+/* ABOUT BOX */
+
+.about-box {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-box .about-pic {
+	width: 45%;
+}
+
+
+.about-box .about-text {
+	width: 55%;
+}
+
+.about-box .about-text h2,
+.about-box .about-text p {
+	margin: 30px;
+}
+
+.about-box .about-text h2 {
+	text-transform: uppercase;
+}
+
+.about-box .about-text p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+.about-box .about-text p span {
+	font-family: "Comfortaa", sans-serif;
+	color: #000;
+}
+
+.about-box .about-text p a {
+	color: #888;
+	text-decoration: underline;
+}
+
+.about-box .about-text p a:hover {
+	color: #4484ce;
+}
+
+/* ABOUT BOX END */
+
 #contact-form {
 	display: flex;
 	flex-wrap: wrap;
@@ -370,4 +366,48 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background: #4484ce;
+}
+
+footer {
+	background: linear-gradient(to bottom, rgba(249,207,0, 0.666) 0%,	
+		rgba(241,111,92, 0.777) 100%);
+	margin-top:30px;
+
+}
+footer .wrap-footer{
+	padding:10px 0px;
+	color:#ffffff;
+
+}
+
+footer .heading{
+	padding:5px;
+}
+footer .heading h2{
+	font-size:22px;
+	font-weight:normal;
+	display:inline;
+	padding:0 5px;
+}
+footer .content{
+	padding:5px
+}
+footer .content a{
+	color:#DA251D;
+	text-decoration:none;
+}
+footer .content .gallery img{
+	float:left;
+	padding:5px;
+	border:1px solid #CCC;
+	margin:5px;
+}
+
+.copyright{
+	text-align:center;
+	margin-top:20px;
+}
+.copyright a{
+	color:#ffffff;
+	text-decoration:underline;
 }
