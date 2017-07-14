@@ -54,10 +54,15 @@
         width: 100%;
     }
 
-    .start-grid .column-1-4 {
-        width: 45%;
+    .part1 {
+    	display: flex;
+    	justify-content: center;
+    	flex-wrap: wrap;
     }
 
+    .start-grid .column-1-2 {
+        width: 100%;
+    }
 
     .about-box{
     	flex-wrap: wrap;
