@@ -10,6 +10,10 @@
 
     }
 
+    .wrap-content {
+    	width: 100%;
+    }
+
     .start-grid {
         width: 100%;
     }
@@ -18,7 +22,6 @@
         position: static;
         width: 100%;
         display: inline-flex;
-
     }
 
     header #logo {
@@ -60,8 +63,9 @@
 @media all and (max-width: 480px) {
 
     header {
-        background: white;
-    }
+        background: background: linear-gradient(to bottom, rgba(241,111,92, 0.777) 0%,	
+		rgba(249,207,0, 0.666) 100%);
+	}
 
     header #logo {
         display: none;
@@ -70,9 +74,12 @@
     .menu ul li {
         display: block;
         width: 100%;
-        background: #000;
+        background: background: linear-gradient(to bottom, rgba(241,111,92, 0.777) 0%,	
+		rgba(249,207,0, 0.666) 100%);
         padding: 0;
+        text-align: center;
     }
+    
 
     .start-grid .column-1-4 {
         width: 100%;
@@ -85,5 +92,9 @@
 
     .start-grid .column-1-3 {
         width: auto;
+    }
+
+    .start-grid .column-1-2 {
+    	width: auto;
     }
 }
