@@ -321,6 +321,48 @@ h4 {
 
 /* ABOUT BOX END */
 
+#social {
+	margin: 0 auto;
+}
+
+/* SOCIAL BUTTONS */
+
+.social-btn {
+	width: 100px;
+	padding: 20px;
+	border-radius: 75%;
+	border: none;
+}
+
+.social-btn:hover {
+	opacity: 0.3;
+}
+
+.social-btn a {
+	font-family: "Lato", sans-serif;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn-facebook {
+	background: #3B579D;
+}
+
+.btn-twitter {
+	background: #33CCFF;
+}
+
+.btn-instagram {
+	background: #6A453B;
+}
+
+.btn-google-plus {
+	background: #D63E24;
+}
+
+/* SOCIAL BUTTONS END */
+
 #contact-form {
 	display: flex;
 	flex-wrap: wrap;
