@@ -63,6 +63,7 @@ nav .wrap-nav{
 	position: relative;
 	float: left;
 	padding: 6px 5px 0px 5px;
+	border-radius: 20px;
 }
 
 .menu ul li:hover {
@@ -104,6 +105,7 @@ nav .wrap-nav{
 	border: 3px solid #fff;
 	margin-top: 50px;
 	margin-bottom: 20px;
+	border-radius: 45px;
 }
 
 #btn-subscribe:hover {
