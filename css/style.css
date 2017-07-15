@@ -43,7 +43,8 @@ header #logo {
 	top:20px;
 	padding:5px;
 	width: 7%;
-}
+	animation: spin 6s linear infinite;
+	}
 
 nav .wrap-nav{
 	position:absolute;
@@ -466,3 +467,19 @@ footer {
 	line-height: 90px;
 }
 
+@-moz-keyframes spin { 
+	100% { 
+	-moz-transform: rotate(360deg); 
+	} 
+}
+@-webkit-keyframes spin { 
+	100% { 
+	-webkit-transform: rotate(360deg);
+	} 
+}
+@keyframes spin { 
+	100% { 
+	-webkit-transform: rotate(360deg); 
+	transform:rotate(360deg); 
+	} 
+}
